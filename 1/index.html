@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form class="form" action="" method="get">
+            <div class="form__inputs">
+                <label for="name" class="form__label">Nombre</label>
+
+                <input type="text" class="form__name" id="name" maxlength="30" required>
+            </div>
+
+            <div class="form__inputs">
+                <label for="cities" class="form__label">Ciudad</label>
+
+                <select id="cities" class="form__cities"></select>
+            </div>
+
+            <div class="form__inputs">
+                <label class="form__label">Estado Civil</label>
+
+                <div class="form__radiogroups">
+                    <input type="radio" class="form__state" name="state" id="single"required>Soltero
+                    <input type="radio" class="form__state" name="state" id="married" required>Casado
+                </div>
+            </div>
+
+            <div class="form__inputs">
+                <input class="form__button" type="submit" id="button" value="Enviar">
+                
+                <p class="form__result" id="result">Resultado</p>
+            </div>
+        </form>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

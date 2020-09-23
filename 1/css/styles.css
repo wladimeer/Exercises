@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.form {
+    width: 500px;
+    padding: 16px;
+    border-radius: 5px;
+    display: inline-block;
+    border: 2px solid #3949AB;
+}
+
+.form__inputs {
+    margin-bottom: 16px;
+}
+
+.form__label {
+    width: 100%;
+    font-size: 20px;
+}
+
+.form__name {
+    width: 100%;
+    outline: none;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.form__cities {
+    width: 100%;
+    outline: none;
+    margin-top: 10px;
+}
+
+.form__radiogroups {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.form__button {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    outline: none;
+    transition: 1s;
+    color: #FFFFFF;
+    margin-top: 10px;
+    border-radius: 5px;
+    background: #3949AB;
+}
+
+.form__button:hover {
+    cursor: pointer;
+    background: #5C6BC0;
+}
+
+.form__result {
+    padding: 8px;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
