@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.content {
+    width: 400px;
+    padding: 20px;
+    border-radius: 2px;
+    display: inline-block;
+    border: 2px solid #17A589;
+}
+
+.content__price {
+    width: 100%;
+    outline: none;
+    margin: 10px 0;
+    box-sizing: border-box;   
+}
+
+.content__discounts {
+    width: 100%;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+.content__button {
+    width: 100%;
+    border: none;
+    padding: 8px;
+    outline: none;
+    margin: 10px 0;
+    color: #FFFFFF;
+    border-radius: 2px;
+    background: #0E6251;
+    box-sizing: border-box;
+}
+
+.content__button:hover {
+    transition: 1s;
+    cursor: pointer;
+    background: #117864;
+}
+
+.content__result {
+    padding: 6px;
+    transition: 2s;
+    color: #FFFFFF;
+    border-radius: 2px;
+}
