@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <label for="name" class="content__label">Nombre</label>
+            <input type="text" class="content__input" id="name">
+        </div>
+
+        <div class="content">
+            <label for="price" class="content__label">Precio</label>
+            <input type="number" class="content__input" id="price">
+        </div>
+
+        <div class="content">
+            <label for="unit" class="content__label">Unidad</label>
+            <input type="number" class="content__input" id="unit">
+        </div>
+
+        <div class="content">
+            <button class="content__button" id="button">Agregar</button>
+            <p class="content__result" id="result">Resultado</p>
+        </div>
+
+        <div class="content">
+            <table class="content__table" border>
+                <thead>
+                    <tr>
+                        <th>Numero</th>
+                        <th>Nombre</th>
+                        <th>Precio</th>
+                        <th>Unidad</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody id="body"></tbody>
+            </table>
+        </div>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
